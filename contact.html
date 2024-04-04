@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Tamma+2:wght@400..800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <meta charset="utf-8">
+    <title>Sunmi Chang</title>
+</head>
+
+<body>
+    <header class="sub_bg">
+        <div>
+            <nav>
+                <div class="logo"><a href="/portfolio/"><img src="assets/logo.png"></a></div>
+                <ul class="menu">
+                    <li><a href="works.html">works</a></li>
+                    <li><a href="about.html">about</a></li>
+                    <!-- <li><a href="resources.html">resources</a></li> -->
+                    <li class="active"><a href="contact.html">contact</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="container">
+            <div class="sub_hero">
+                <h1>Contact</h1>
+            </div>
+        </div>
+    </header>
+    <main class="sub_main3">
+        <section class="contact_con">
+            <p>If you have any questions or would like to contact me, please fill out the form below and I will be happy to answer. </p>
+            <h2>(347)506-9568</h2>
+            <div class="contact_form mt50">
+                <!-- <form  action="sendemail.php" method="POST"> -->
+                <form  action="send_mail.php" method="POST">
+                  <input type="text" id="name" name="name" placeholder="Name">
+                  <input type="text" id="email" name="email" placeholder="Email">
+                  <input type="text" id="phone" name="phone" placeholder="Phone">
+                  <textarea id="message" name="message" placeholder="Message"></textarea>
+                  <input type="submit" value="SEND">
+                </form>
+              </div>
+        </section>
+    </main>
+    <footer class="noborder">
+        <a href="https://www.instagram.com/tweeti54/">Instagram</a>
+        <p>©2023 Sunmi Chang</p>
+    </footer>
+</body>
+
+</html>
