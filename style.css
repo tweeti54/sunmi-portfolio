@@ -169,8 +169,21 @@ main h2 {
 
 .container article {
     display: flex;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
     justify-content: space-between;
     padding: 0 50px;
+}
+
+article > div:has(img) {
+    width: 100%;
+    display: flex;
+}
+
+article > div > img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
 }
 
 .forthimg {
@@ -348,6 +361,9 @@ header.sub_bg {
     padding: 0 50px;
     column-gap: 28px;
 
+    @media  (max-width: 1200px) {
+        flex-direction: column;
+    }
 }
 
 .left_text {
@@ -356,6 +372,9 @@ header.sub_bg {
     color: #5d5f63;
     font-weight: 400;
     text-align: left;
+    @media  (max-width: 1200px) {
+        order: 2;
+    }
 }
 
 .left_text h2 {
@@ -388,14 +407,17 @@ header.sub_bg {
 .sub_main2 section ul {
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    gap: 32px;
     list-style-type: none;
-    padding: 0 155px 50px;
+    padding: 0 0 50px;
 }
 
 .sub_main2 section a {
     font-family: "Baloo Tamma 2", system-ui;
     font-size: 22px;
     font-weight: 700;
+    line-height: 1;
     text-transform: capitalize;
     color: #3a2956;
 }
