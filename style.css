@@ -433,6 +433,60 @@ header.sub_bg {
     flex-wrap: wrap;
 }
 
+.sub_main2 .img_box .animation-button {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    border: none;
+    cursor: pointer;
+}
+
+dialog.animation-modal {
+    margin: 0;
+    border: none;
+    display: flex;
+    position: fixed;
+    inset: 0;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+dialog.animation-modal::backdrop {
+    background-color: rgba(0, 0, 0, 0.9);
+}
+
+dialog.animation-modal .dialog-content {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+dialog.animation-modal .dialog-content img,
+dialog.animation-modal .dialog-content video {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+dialog.animation-modal .dialog-content .close-button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: #ffffff;
+    color: #000000;
+    border: none;
+    border-radius: 5px;
+    padding: 4px;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    z-index: 1;
+}
+
 .sub_main2 ul li a span {
     letter-spacing: 3px;
 }
