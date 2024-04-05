@@ -175,6 +175,13 @@ main h2 {
     padding: 0 50px;
 }
 
+@media (max-width: 900px) {
+    .container article:has(div > img) {
+        grid-template-columns: 1fr;
+        margin-bottom: 64px;
+    }
+}
+
 article > div:has(img) {
     width: 100%;
     display: flex;
@@ -231,6 +238,17 @@ article > div > img {
 
 .container article:nth-of-type(even) div:nth-of-type(2) {
     order: 1;
+}
+
+
+@media (max-width: 900px) {
+    .container article:nth-of-type(n) div.img-wrapper {
+        order: 1;
+    }
+    
+    .container article:nth-of-type(n) div.contents {
+        order: 2;
+    }
 }
 
 .con_resources {

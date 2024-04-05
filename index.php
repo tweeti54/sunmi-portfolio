@@ -37,7 +37,7 @@
                 <h2>Works</h2>
                 <p class="top_text">This section is a collection of my work. These works will give you an idea of my interests,talents, and style.</p>
                     <article>
-                        <div><img src="assets/img1.jpg" alt="A drawing for still life"></div>
+                        <div class="img-wrapper"><img src="assets/img1.jpg" alt="A drawing for still life"></div>
                         <div class="contents">
                             <h3>Drawing and Painting</h3>
                             <p>This section showcases a collection of drawing and painting works. The drawings were created using charcoal, while the paintings are primarily oil on canvas.
@@ -46,7 +46,7 @@
                         </div>
                     </article>
                     <article>
-                        <div><img src="assets/img2.jpg" alt="A Rome Travel Poster"></div>
+                        <div class="img-wrapper"><img src="assets/img2.jpg" alt="A Rome Travel Poster"></div>
                         <div class="contents">
                             <h3>Poster</h3>
                             <p>In this section, you can enjoy various poster works. I created posters using Adobe Photoshop, Illustrator, or hand-drawn illustrations with Procreate and watercolor. These include infographics and timelines.
@@ -55,7 +55,7 @@
                         </div>
                     </article>
                     <article>
-                        <div><img src="assets/img3.jpg" alt="Halloween Animation"></div>
+                        <div class="img-wrapper"><img src="assets/img3.jpg" alt="Halloween Animation"></div>
                         <div class="contents">
                             <h3>Animation</h3>
                             <p>This section is a collection of my various animation works. I created these using Adobe
@@ -64,7 +64,7 @@
                         </div>
                     </article>
                     <article>
-                        <div><img src="assets/img4.jpg" alt="A Still Life Photo"></div>
+                        <div class="img-wrapper"><img src="assets/img4.jpg" alt="A Still Life Photo"></div>
                         <div class="contents">
                             <h3>Photography</h3>
                             <p>This section is a collection of photos taken during digital photography class. During
@@ -77,7 +77,7 @@
                         </div>
                     </article>
                     <article>
-                        <div><img src="assets/img5.jpg" alt="Website"></div>
+                        <div class="img-wrapper"><img src="assets/img5.jpg" alt="Website"></div>
                         <div class="contents">
                             <h3>Website</h3>
                             <p>This section showcases a variety of website designs.</p>
@@ -85,7 +85,7 @@
                         </div>
                     </article>
                     <article class="forthimg">
-                        <div><img src="assets/img6.jpg" alt="A Magazine Design"></div>
+                        <div class="img-wrapper"><img src="assets/img6.jpg" alt="A Magazine Design"></div>
                         <div class="contents s_letter">
                             <h3>Others</h3>
                             <p>In this section, there are various works such as design for space and shape, which are
